@@ -1,4 +1,4 @@
-name: CI
+name: compress
 
 on:
   push:
