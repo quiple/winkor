@@ -16,5 +16,6 @@ jobs:
         with:
           python-version: '3.x'
       - run: |
+          pip install fonttools[woff]
           fonttools ttLib.woff2 compress DosKor.ttf
           fonttools ttLib.woff2 compress WinKor.ttf
