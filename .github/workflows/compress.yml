@@ -2,7 +2,8 @@ name: compress
 
 on:
   push:
-    paths: '**.ttf'
+    paths:
+      - '**.ttf'
   workflow_dispatch:
 
 jobs:
