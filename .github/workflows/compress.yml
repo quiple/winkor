@@ -3,6 +3,8 @@ name: compress
 on:
   push:
     paths: '**.ttf'
+  pull_request:
+    branches: [ main ]
 
   workflow_dispatch:
 
