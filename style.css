@@ -1,0 +1,6 @@
+@font-face { font-family: DosKor; font-weight: 400; font-style: normal; font-display: block; src: url('./DosKor.woff2') format('woff2'), url('./DosKor.ttf') format('truetype'); }
+@font-face { font-family: WinKor; font-weight: 400; font-style: normal; font-display: block; src: url('./WinKor.woff2') format('woff2'), url('./WinKor.ttf') format('truetype'); }
+* { font-size: 16px !important; line-height: 16px !important; box-sizing: border-box; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; }
+html, body { font-family: WinKor, sans-serif; /*cursor: url('./cur.png'), auto;*/ }
+code, kbd, pre, samp, code *, kbd *, pre *, samp * { font-family: DosKor, monospace; }
+.win { max-width: 640px; margin: 40px auto; display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: #fff; border: 4px solid; border-image: url('./border.png') 4; }
