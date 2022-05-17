@@ -5,15 +5,15 @@ on:
     paths: '**.ttf'
   pull_request:
     branches: [ main ]
-
   workflow_dispatch:
 
 jobs:
   compress:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
       - uses: actions/setup-python@v3
         with:
           python-version: '3.x'
