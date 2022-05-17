@@ -19,3 +19,4 @@ jobs:
           pip install fonttools[woff]
           fonttools ttLib.woff2 compress DosKor.ttf
           fonttools ttLib.woff2 compress WinKor.ttf
+      - uses: stefanzweifel/git-auto-commit-action@v4
