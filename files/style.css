@@ -1,5 +1,5 @@
-@font-face { font-family: DosKor; font-weight: 400; font-style: normal; font-display: block; src: url('./DosKor.woff2') format('woff2'), url('./DosKor.ttf') format('truetype'); }
-@font-face { font-family: WinKor; font-weight: 400; font-style: normal; font-display: block; src: url('./WinKor.woff2') format('woff2'), url('./WinKor.ttf') format('truetype'); }
+@font-face { font-family: DosKor; font-weight: 400; font-style: normal; font-display: block; src: url('../DosKor.woff2') format('woff2'), url('../DosKor.ttf') format('truetype'); }
+@font-face { font-family: WinKor; font-weight: 400; font-style: normal; font-display: block; src: url('../WinKor.woff2') format('woff2'), url('../WinKor.ttf') format('truetype'); }
 * { font-size: 16px !important; font-weight: 400 !important; line-height: 16px !important; box-sizing: border-box; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; word-break: keep-all; }
 html, body { font-family: WinKor, sans-serif; /*cursor: url('./cur.png'), auto;*/ }
 code, kbd, pre, samp, code *, kbd *, pre *, samp * { font-family: DosKor, monospace; }
@@ -8,7 +8,9 @@ code, kbd, pre, samp, code *, kbd *, pre *, samp * { font-family: DosKor, monosp
 .win h1 span { position: relative; top: 1px; white-space: nowrap; overflow: hidden; padding: 0 8px; }
 .win h1 button { display: flex; justify-content: center; align-items: center; width: 19px; height: 100%; background-color: #c3c7cb; border: none; padding: 0; }
 .win h1 > button { border-right: 1px solid #000; padding: 2px 3px 2px 2px; }
+.win h1 > button:active { background-color: #868a8e; }
 .win h1 > button .menu { padding: 0; width: 13px; height: 3px; background-color: #fff; border: 1px solid #000; box-shadow: 1px 1px 0 #868a8e; top: -.5px; }
+.win h1 > button:active .menu { background-color: #000; border-color: #fff; box-shadow: 1px 1px 0 #c3c7cb; }
 .win h1 .btngroup { display: flex; height: 100%; background-color: #c3c7cb; }
 .win h1 .btngroup > button { border-left: 1px solid #000; box-shadow: inset -1px -1px #868a8e, inset 1px 1px #fff, inset -2px -2px #868a8e; }
 .win h1 .btngroup > button img { position: relative; left: -.5px; }
@@ -16,8 +18,10 @@ code, kbd, pre, samp, code *, kbd *, pre *, samp * { font-family: DosKor, monosp
 .win h1 .btngroup > button:active { box-shadow: inset 1px 1px #868a8e; }
 .win h1 .btngroup > button:active img { transform: translate(1px, 2px); }
 .win .toolbar { display: flex; width: 100%; height: 19px; border-bottom: 1px solid #000; }
-.win .toolbar button { background-color: transparent; border: 0; border-radius: 0; padding: 0 8px; }
+.win .toolbar button { background-color: transparent; color: #000; border: 0; border-radius: 0; padding: 0 8px; }
 .win .toolbar button .under { display: inline-block; border-bottom: 1px solid #000; }
+.win .toolbar button:active { background-color: #00a; color: #fff; }
+.win .toolbar button:active .under { border-color: #fff; }
 .win h2 { width: 100%; margin: 8px 0; padding: 0 8px; font-weight: 700 !important; }
 .win p { width: 100%; margin: 8px 0; padding: 0 8px; }
 .win p a { color: #0a5; }
