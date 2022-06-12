@@ -7,6 +7,8 @@
 - 역사선 (Reverse Solidus, `U+005C`)의 모양을 원 기호(₩)에서 역사선으로 바꾸었습니다. 원 기호는 `U+20A9`로 옮겼습니다.
 - WinKor의 한중일 기호 및 구두점 (CJK Symbols and Punctuation) 블록의 괄호들을 전각에서 반각으로 바꾸었습니다.
 
+DosKor은 [HBIOS-SYS](https://github.com/quiple/hbios-sys)로 이동하였습니다.
+
 ---
 
 원본 디자인: 큐닉스컴퓨터 (한글), IBM (라틴)
