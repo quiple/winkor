@@ -11,4 +11,4 @@ DosKor은 [HBIOS-SYS](https://github.com/quiple/hbios-sys)로 이동하였습니
 
 ---
 
-원본 디자인: 큐닉스컴퓨터 (한글), IBM (라틴)
+원본 디자인: 큐닉스컴퓨터 (한글), 마이크로소프트 (라틴)
